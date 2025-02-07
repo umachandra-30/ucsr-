@@ -15,7 +15,7 @@ header {
 .cover-photo img {
     width: 100px;
     height: 100px; /* Fixed height for the cover photo */
-    object-fit: cover; /* Ensures the image covers the area without distortion */
+     /* Ensures the image covers the area without distortion */
 }
 
 nav {
