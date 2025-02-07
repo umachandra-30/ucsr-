@@ -13,8 +13,8 @@ header {
 }
 
 .cover-photo img {
-    width: 200px;
-    height: 200px; /* Fixed height for the cover photo */
+    width: 100px;
+    height: 100px; /* Fixed height for the cover photo */
     object-fit: cover; /* Ensures the image covers the area without distortion */
 }
 
