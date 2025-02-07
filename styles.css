@@ -13,10 +13,14 @@ header {
 }
 
 .cover-photo img {
-    width: 100px;
-    height: 100px; /* Fixed height for the cover photo */
-     /* Ensures the image covers the area without distortion */
+    width: 100%; /* Make it responsive */
+    max-width: 300px; /* Limit size for large screens */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image */
+    object-fit: cover; /* Prevent distortion */
 }
+
 
 nav {
     text-align: center;
