@@ -14,12 +14,13 @@ header {
 
 .cover-photo img {
     width: 100%; /* Make it responsive */
-    max-width: 300px; /* Limit size for large screens */
+    max-width: 400px; /* Limit the size on larger screens */
     height: auto; /* Maintain aspect ratio */
-    display: block;
+    display: block; /* Remove any inline spacing issues */
     margin: 0 auto; /* Center the image */
-    object-fit: cover; /* Prevent distortion */
+    border-radius: 10px; /* Optional: Adds rounded corners */
 }
+
 
 
 nav {
